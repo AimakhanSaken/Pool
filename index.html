@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>PoolExpert</title>
+</head>
+<body style='overflow-x:hidden;'>
+    <header class="header main-header">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">         
+                        <div class="top-nav__menu">
+                            <ul class="top-nav__main-menu">
+                                <li>
+                                    <a href="#" class="top-nav__link">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="top-nav__link">Товары</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="top-nav__link">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-12 top-nav__logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="top-nav__phones">
+                            <p>
+                                <a href="tel:87057704387">+7 705 770 43 87</a>
+                            </p>
+                            <p>
+                                <a href="https://www.instagram.com/pool_expert_/">
+                                    <img class="inst-img" src="img/insta.svg" alt="">
+                                </a>
+                            </p>
+                        </div>                          
+                </div>
+            </div>
+    
+        </div>
+        <div class="main-header-content">
+            <div class="row">
+                <div class="main-header-content__container">
+                    <h2>Строительство бассейнов</h2>
+                    <p><b>Полный спектр работ:</b>от проектирования и сдачи "под ключ" до обслуживания или реконструкции вашего бассйена, а также большой выбор товаров</p>
+                    <button class="site_button orange-gradient">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--      1 page end        -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-header">
+                    <span>Наши работы</span>
+                </div>
+                <div class="portfolio__body">
+                    <div class="slider">
+                        <div class="slider__item">
+                            <img src="img/work-1.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/work-2.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/work-3.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/work-4.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/work-5.jpg" alt="">
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--                                    page 2 end                           -->
+    <section class="raschet">
+        <div class="raschet__inner">
+            <div class="container">
+                <div class="row">
+                    <div class="raschet__title">
+                        <span>Сколько будет стоить бассейни ?</span>
+                    </div>
+                    <div class="raschet-text"><p>Ответьте на несколько вопросов и наши специалисты отправят вам смету в течении <b>1 рабочего дня</b></p>
+                    </div>
+                    <div class="pagethree">
+                        <div class="seldemo">
+                          <label>Отделка чаши: </label>
+                          <select class="selotdelka">
+                              <option>Полипропилен</option>
+                              <option>Кафель</option>
+                              <option>Камень</option>
+                          </select>  
+                        </div>
+                        <div class="seldemo">
+                          <label>Нагрев воды:</label>
+                          <select class="selpodogrev">
+                              <option>Да</option>
+                              <option>Нет</option>     
+                          </select>       
+                        </div>
+                        <div class="sliderr">
+                          <label>Размер<br>бассейна:</label>
+                          <input type='range' min='1' max='30' value='1'   oninput='rangeValue.innerText = this.value'>
+                          <p id='rangeValue'>1</p>
+                        </div> 
+                        <button class="button orange-gradient">Оставить заявку</button> 
+                  </div>           
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--                    page 3 end                                              -->
+    <section class="tovary">
+            <div class="container">
+                <div class="row">
+                    <div class="tovary__title">
+                        <span>Товары для бассейна</span><br>
+                        <img src="img/wave.png" alt="">
+                    </div>
+                    <div class="tovary">
+                        <div class="slider_tovary">
+                            <div class="slider_tovary__item">
+                                <img src="img/tovar1.png" alt="">
+                                <div class="text">Фильтрующая установка BestWay</div>
+                            </div>
+                            <div class="slider_tovary__item">
+                                <img src="img/tovar2.jpg" alt="">
+                                <div class="text">Прожектор под плитку с оправой</div>
+                            </div>
+                            <div class="slider_tovary__item">
+                                <img src="img/tovar1.png" alt="">
+                                <div class="text">Фильтрующая установка BestWay</div>
+                            </div>
+                            <div class="slider_tovary__item">
+                                <img src="img/tovar2.jpg" alt="">
+                                <div class="text">Прожектор под плитку с оправой</div>
+                            </div>
+                            <div class="slider_tovary__item">
+                                <img src="img/tovar1.png" alt="">
+                                <div class="text">Фильтрующая установка BestWay</div>
+                            </div> 
+                        </div>
+                        <button class="button-tovary">Cмотреть все</button>
+                </div>
+            </div>
+    </section>
+    <!--                      page 4 end                                        -->
+    <section class="chto_poluch">
+        <div class="container">
+            <div class="row">
+                <div class="chto_poluch__title">
+                    <span>Что вы получаете ?</span><br>
+                    <img src="img/wave_white.png" alt="">
+                </div>
+                <div class="cto_poluch__text">
+                    <div class="chto_poluch__item">
+                        <img src="img/research.png" alt="">
+                        <p>Индивидуальное предложение</p>
+                    </div>
+                    <div class="chto_poluch__item">
+                        <img src="img/time-management.png" alt="">
+                        <p>Комплексная поддержка</p>
+                    </div>
+                    <div class="chto_poluch__item">
+                        <img src="img/hand.png" alt="">
+                        <p>Качественные материалы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--                          page 5 end                                -->
+    <section class="ostalis_voprosy">
+        <div class="container">
+            <div class="row">
+                <div class="ostalis_voprosy__text_zayavka">
+                    <div class="ostalis_voprosy__title">
+                        <span>Остались вопросы ?</span><br>
+                        <img src="img/wave.png" alt="">
+                    </div>
+                    <div class="ostalis_voprosy-text"><p>Оставьте заявку и наши специалисты свяжутся с вами в ближайшее время</p>
+                    </div>
+                    <form action="" class="text-center" id="index-bottom-form">
+                        <input type="text" name="name" required="" placeholder="Имя">
+                        <input type="text" name="phone" required="" placeholder="Телефон">
+                        <button class="otpravit"><span>Отправить</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!--                         page 6 end                                   -->
+    <section class="contacts">
+        <div class="contacts__body">
+            <div id="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa47f6fe5a91c48316c2466da97ef4eaef48b56187b5a6cea7c00bb23bbd0a29c&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <div class="contacts__block">
+                <div class="contacts__item">
+                    <p>Казахстан, Алматы, Байганина, 26, 5 офис</p>
+                </div>
+                <div class="contacts__item">
+                    <a href="tel:87057704387">+7 705 770 43 87,</a>
+                    <a href="mailto:Poolexpert79@mail.ru">Poolexpert79@mail.ru</a>
+                </div>
+            </div>                
+        </div>
+    </section>
+    <!--                              page 7 end                                  -->
+    
+</body>
+</html>
+
+
+
+  
